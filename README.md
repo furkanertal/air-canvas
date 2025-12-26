@@ -24,7 +24,7 @@ Built with Python, OpenCV, and MediaPipe.
 
 ## Requirements
 
-- Python 3.8 - 3.11 (MediaPipe has limited support for Python 3.12+)
+- Python (MediaPipe has limited support for Python 3.12+)
 - opencv-python
 - mediapipe
 - numpy
@@ -33,7 +33,7 @@ Built with Python, OpenCV, and MediaPipe.
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/air-canvas.git
+git clone https://github.com/furkanertal/air-canvas.git
 cd air-canvas
 ```
 
@@ -143,13 +143,6 @@ air-canvas/
 - Close other resource-intensive applications
 - Ensure your system meets the minimum requirements
 
-### MediaPipe Import Error (Python 3.12)
-MediaPipe has limited support for Python 3.12. Consider using Python 3.8-3.11:
-```bash
-python3.11 -m pip install opencv-python mediapipe numpy
-python3.11 main.py
-```
-
 ## Future Enhancements
 
 - [ ] Text tool for adding labels
@@ -174,18 +167,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## Acknowledgments
 
-- [MediaPipe](https://google.github.io/mediapipe/) for hand tracking
-- [OpenCV](https://opencv.org/) for computer vision capabilities
-- Inspired by virtual drawing applications and gesture-based interfaces
-
-## Contact
-
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter)
-
-Project Link: [https://github.com/yourusername/air-canvas](https://github.com/yourusername/air-canvas)
-
----
 
 ⭐ If you found this project helpful, please consider giving it a star!
